@@ -1,6 +1,5 @@
 import { Mongoose } from ("mongoose");
 
-
 const orderSchema = Mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
