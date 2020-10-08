@@ -11,11 +11,10 @@ const reviewSchema = mongoose.Schema(
   }
 );
 
-const productSchema = mongoose.schema(
+const productSchema = mongoose.Schema(
   {
     user: {
       type: mongoose.Schema.Types.ObjectId,
-      ObjectId,
       required: true,
       ref: "User",
     },
